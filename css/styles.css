@@ -1,0 +1,75 @@
+
+.row {
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hour {
+  text-align: center;
+  padding: 20px;
+}
+.party {
+  text-align: center;
+  background-color: #F15A29;
+  padding: 20px;
+}
+
+.fast {
+  padding: 0;
+  margin: 0;
+  background-image: url("../img/breakfast.jpg");
+  background-size: cover;
+}
+
+.breakfast {
+max-height: 100%;
+max-width: 100%;
+text-align: center;
+margin-top: 10px;
+padding: 63px;
+
+}
+
+.lun {
+  padding: 0;
+  margin: 0;
+  background-image: url("../img/lunch.jpg");
+  background-size: cover;
+}
+
+.lunch{
+  max-height: 100%;
+  max-width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  padding: 63px;
+}
+.din{
+  padding: 0;
+  margin: 0;
+  background-image: url("../img/dinner.jpg");
+  background-size:cover;
+
+}
+
+.dinner{
+  max-height: 100%;
+  max-width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  padding: 63px;
+}
+
+.jumbotron{
+  text-align: center;
+  background-image: url(../img/landing.jpg);
+  background-attachment: fixed;
+}
+
+.chicken Burger{
+  background-image: url(../img/chicken burger.jpg);
+  background-size: cover;
+  height:180px;
+  width:235px;
+}
