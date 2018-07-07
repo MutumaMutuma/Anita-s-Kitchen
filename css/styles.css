@@ -198,7 +198,7 @@ border-radius: 5px;
 margin: 20px;
 background-color:#F15A29;
 display:inline-block;
-color:#ffffff;
+color:white;
 font-size:28px;
 font-weight: 100px;
 padding:6px 40px;
@@ -225,4 +225,8 @@ color: #ecf0f1;
 
 :-ms-input-placeholder {
 color: #ecf0f1;
+}
+.drab{
+  background-color: white;
+  margin-top: 100px;
 }
