@@ -141,11 +141,26 @@ button{
   max-width: 100%;
   padding: 30px;
 }
-.mymedia{
+.pill{
+  background-image: url("/home/zamzam/Documents/ANITA-S-KITCHEN/img/foodsBg.jpg");
+  background-repeat: no-repeat;
+  height: 600px;
+  width:100%;
+  padding: 0px;
+}
+.card{
+  margin: 40px;
+  box-shadow: 7px 9px 9px 7px gold;
+  padding-top: 30px;
+}
+.card:hover{
+  box-shadow: 7px 9px 9px 7px gold;
+}
+.mail{
 padding: 0;
-height: 600px;
+height: 300px;
 width:100%;
-background-image: url(../images/foodsBg.jpg);
+background-image: url("/home/zamzam/Documents/ANITA-S-KITCHEN/img/subscribe.jpg");
  background-repeat: no-repeat;
 background-position: center center;
 background-size: cover;

@@ -1,7 +1,8 @@
 # Anitas-kitchen
 Anita's Kitchen
 
-Author:Lewis Mutuma
+#Author:
+Lewis Mutuma
 
 ### Description
 This project is a landing page for Anita's hotel business.
