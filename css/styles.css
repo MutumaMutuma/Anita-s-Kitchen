@@ -115,7 +115,7 @@ padding: 63px;
 }
 
 .chicken Burger{
-  background-image: url(../img/chicken burger.jpg);
+  background-image: url("../img/chicken burger.jpg");
   background-size: cover;
   height:180px;
   width:235px;
@@ -142,7 +142,7 @@ button{
   padding: 30px;
 }
 .pill{
-  background-image: url("/home/zamzam/Documents/ANITA-S-KITCHEN/img/foodsBg.jpg");
+  background-image: url("img/foodsBg.jpg");
   background-repeat: no-repeat;
   height: 600px;
   width:100%;
@@ -160,7 +160,7 @@ button{
 padding: 0;
 height: 300px;
 width:100%;
-background-image: url("/home/zamzam/Documents/ANITA-S-KITCHEN/img/subscribe.jpg");
+background-image: url("img/subscribe.jpg");
  background-repeat: no-repeat;
 background-position: center center;
 background-size: cover;
