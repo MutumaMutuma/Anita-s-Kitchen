@@ -1,3 +1,6 @@
+body{
+  background-color: lightgrey;
+}
 .overlay {
     height: 100%;
     width: 100%;
@@ -120,7 +123,7 @@ padding: 63px;
   height:180px;
   width:235px;
 }
-button{
+.button{
   border-color:#F15A29;
   background-color: white;
   padding: 10px;
@@ -142,7 +145,7 @@ button{
   padding: 30px;
 }
 .pill{
-  background-image: url("img/foodsBg.jpg");
+  background-image: url("../img/foodsBg.jpg");
   background-repeat: no-repeat;
   height: 600px;
   width:100%;
@@ -160,7 +163,7 @@ button{
 padding: 0;
 height: 300px;
 width:100%;
-background-image: url("img/subscribe.jpg");
+background-image: url("../img/subscribe.jpg");
  background-repeat: no-repeat;
 background-position: center center;
 background-size: cover;
