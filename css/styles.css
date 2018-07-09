@@ -116,7 +116,9 @@ body{
   background-image: url("../img/breakfast.jpg");
   background-size: cover;
 }
-
+.fast:hover{
+  opacity: 0.5;
+}
 .breakfast {
 max-height: 100%;
 max-width: 100%;
@@ -132,7 +134,9 @@ padding: 63px;
   background-image: url("../img/lunch.jpg");
   background-size: cover;
 }
-
+.lun:hover{
+  opacity: 0.5;
+}
 .lunch{
   max-height: 100%;
   max-width: 100%;
@@ -145,9 +149,10 @@ padding: 63px;
   margin: 0;
   background-image: url("../img/dinner.jpg");
   background-size:cover;
-
 }
-
+.din:hover{
+  opacity: 0.5;
+}
 .dinner{
   max-height: 100%;
   max-width: 100%;
