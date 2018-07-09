@@ -17,19 +17,20 @@
   <body>
 
     <div class="container-fluid" style="text-align: center;background-image: url(img/landing.jpg);background-attachment: fixed;background-size:cover;height:100vh;background-position:center; ">
-      <img src="img/logoBig.png" style="margin-top:70px">
-      <!--navigation bar-->
-      <div id="myNav" class="overlay">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <div class="overlay-content">
-          <a href="#">Contact Us</a>
+      <!--My navigation-->
+      <div class="navvy">
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#">Contacts</a>
           <a href="#">Events</a>
-          <a href="#">Our clients</a>
-          <a href="#">Customer Care</a>
+          <a href="#">Menu</a>
         </div>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
       </div>
 
-      <!--end of my navigationbar-->
+<!--End of my navigation-->
+      <img src="img/logoBig.png" style="margin-top:70px">
+
 
       <h1 style="color:white;">We Provide The Best Food </br>At The  <strong>Right Price</strong></h1>
     </div>
@@ -144,7 +145,7 @@
           <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false"><button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Click here">Chicken</button></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Rice</a>
+          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false"><button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Click here">Rice</button></a>
         </li>
       </ul>
       <div class="tab-content" id="pills-tabContent">
@@ -187,7 +188,7 @@
           </div>
         </div>
       </div>
-      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+      <div class="tab-pane fade" id="pills-rice" role="tabpanel" aria-labelledby="pills-rice-tab">
         <div class="row">
           <div class="col-md-3">
             <img src="https://www.seriouseats.com/recipes/images/2016/01/20160206-fried-rice-food-lab-68-1500x1125.jpg" alt="rice" height="200px">
@@ -196,7 +197,7 @@
             <img src="http://feenix.co.in/wp-content/uploads/2017/12/basmati-rice-microwave-method-for-cooking.jpg" alt="whiterice" height="200px">
           </div>
           <div class="col-md-3">
-            <img src="https://www.medguru.lt/uploads/img/catalog/1/thumb_4_1_85000012.jpg" alt="caboot" height="200px">
+            <img src="https://howdaily.com/wp-content/uploads/2016/07/cooked-brown-and-white-rice.jpg" alt="caboot" height="200px">
           </div>
         </div>
       </div>
@@ -260,11 +261,21 @@
         <h3>Thats What We Are</h3><br/>
 
         <img src="img/facebook.png"  class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
+        <a href="#" class="btn btn-default btn-lg" data-toggle="tooltip" title="Twitter" target="_blank"><i class="fa fa-twitter fa-fw"></i> <span class="network-name"></span></a>
         <img src="img/twitter.png"  class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
         <img src="img/pinterest.png"  class="img-responsive" style="display:inline" alt="fastfood" width="" height=""><br/><br/><br/>
         <h4>2016 Menu Restaurant</4>
     </div>
 </div>
 <!--End of my footer-->
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
   </body>
 </html>
