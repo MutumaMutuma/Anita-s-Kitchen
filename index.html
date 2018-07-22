@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
         <link href="css/styles.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -247,7 +248,11 @@
     <div class="mail">
         <form action="">
             <input type="email" name="email" class="formStyle" placeholder="Your Email" required />
-            <a href="#" class="formButton">Subscribe</a>
+
+             <a href="#" onclick="myFunction()" class="formButton">Subscribe</a>
+            <div id="snackbar">  Your subscription is being proccessed...</div>
+
+
       </form>
     </div>
 </div>
@@ -275,6 +280,18 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
+
+
+function myFunction() {
+    var x = document.getElementById("snackbar");
+    x.className = "show";
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
 </script>
+
+
+
+</script>
+
   </body>
 </html>
