@@ -1,3 +1,6 @@
+*{
+  font-family:  'Chewy', cursive;
+}
 body{
   background-color: lightgrey;
 }
@@ -283,6 +286,7 @@ color: #ecf0f1;
   background-color: #dccce5;
   margin-top: 100px;
 }
+
 #snackbar {
     visibility: hidden;
     min-width: 250px;
